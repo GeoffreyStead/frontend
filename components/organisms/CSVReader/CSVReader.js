@@ -30,7 +30,7 @@ export function CSVReader() {
   
     const handleButtonClick = () => {
       const { titles, rows } = parseCSV(data);
-      if (!titles.length || !rows.length) {
+      if (!titles?.length || !rows?.length) {
         setCsvData("No data available.");
       } else {
         setCsvData(<CSVTable titles={titles} rows={rows} />);

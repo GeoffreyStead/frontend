@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const CSVTableWrapper = styled.table`
     width: 100%;
     border-collapse: collapse;
+    color: white;
 
    tr {
     text-align: center;
