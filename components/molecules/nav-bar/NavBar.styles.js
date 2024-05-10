@@ -9,6 +9,7 @@ export const NavBarWrapper = styled.div`
   background: black;
 
   .tab {
+    font-family: fantasy;
     font-size: 4rem;
     cursor: pointer;
     align-content: center;
